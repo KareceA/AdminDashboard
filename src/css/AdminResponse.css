@@ -1,0 +1,17 @@
+#uppertext {
+    font-size: larger;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#lowertext {
+    font-size: small;
+    margin-top: 2px;
+    padding-bottom: 15px;
+}
+
+.color {
+    color: teal;
+}

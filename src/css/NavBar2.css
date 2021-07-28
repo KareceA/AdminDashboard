@@ -1,0 +1,17 @@
+.sidebartext {
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.h2tag {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.ptag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-left: 0px;
+}

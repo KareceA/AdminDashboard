@@ -1,0 +1,168 @@
+.maincontainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+.App > *{
+  width: 100%;
+}
+
+
+input {
+  border-style: none;
+  background-color: transparent;
+}
+
+.mainbody {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  background-color: #ede9e8;
+  padding: 10px 0;
+}
+
+#envelopeicon {
+  margin-right: 10px;
+}
+
+.logout {
+  margin: 0;
+  margin-right: 10px;
+}
+
+#logouticon {
+  margin-right: 0;
+  margin-right: 10px;
+}
+
+#bellicon {
+  margin-right: 10px;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.navbar2 {
+  background-color: white;
+}
+
+.adminresponse {
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+}
+#ptag {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.space {
+  flex: 1 0;
+}
+
+.rightside {
+  display: flex;
+
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  background-color: rgb(52, 87, 87);
+  border-style: none;
+  padding-top: 2px;
+}
+
+.searchicon {
+  border-radius: 50%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile #name {
+  margin: 0px;
+  color: aliceblue;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+  /* display: flex; */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.sidebar {
+  /* height: 100vw; */
+  /* width: 20vw; */
+  background-color: darkslategray;
+  /* position: relative; */
+}
+
+.SideBarList {
+  height: auto;
+  width: 100%;
+  /* background-color: lavender; */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.SideBarList .row {
+  height: 60px;
+  width: auto;
+  /* border:1px solid black; */
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  color: aliceblue;
+  padding: 10px;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.SideBarList #active {
+  background-color :rgb(20, 29, 29);
+}
+
+
+.SideBarList .row:hover {
+  cursor: pointer;
+  background-color: rgb(20, 29, 29);
+}
+
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}
