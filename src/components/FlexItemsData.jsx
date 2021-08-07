@@ -5,7 +5,7 @@ import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 
 export const FlexItemsData = [
     {
-        title: "Phone",
+        title: "Fully responsive",
         icon: <PhoneIphoneIcon />,
         link: "/Phone"
     },

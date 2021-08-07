@@ -4,7 +4,7 @@
     justify-content: space-evenly ;
 }
 
-.FlexItemsList .row {
+.FlexItemsList .row1 {
     height: 100px;
     width: 100px;
     /* border: 1px solid black; */
@@ -13,7 +13,6 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
-

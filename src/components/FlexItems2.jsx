@@ -1,14 +1,14 @@
 import React from "react";
-import {FlexItemsData} from "./FlexItemsData";
-import "../css/FlexItems.css";
+import {FlexItems2Data} from "./FlexItems2Data";
+import "../css/FlexItems2.css";
 
-function FlexItems(params) {
+function FlexItems2(params) {
     return(
         <div className= "flexitems">
             <ul className="FlexItemsList">
-            {FlexItemsData.map((val, key)=>{
+            {FlexItems2Data.map((val, key)=>{
                 return(
-                    <li className="row" key={key}
+                    <li className="row1" key={key}
                         id = {window.location.pathname === val.link ? "active" : "null"} 
                         onClick={()=>
                         {window.location.pathname = val.link}}> {""}
@@ -20,5 +20,7 @@ function FlexItems(params) {
             </ul>
         </div>
     );   
+    
 }
-export default FlexItems;
+
+export default FlexItems2;

@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar"
 import NavBar2 from "./components/NavBar2";
 import AdminResponse from "./components/AdminResponse";
 import FlexItems from "./components/FlexItems";
+import FlexItems2 from "./components/FlexItems2"
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </div>
         <div className= "flexitems">
           <FlexItems />
+        </div>
+        <div>
+          <FlexItems2 />
         </div>
       </div>
     </div>
